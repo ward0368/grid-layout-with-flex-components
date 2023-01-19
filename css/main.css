@@ -25,4 +25,10 @@ body {
   .icon {
     font-size: 4rem;
   }
-  ```
+
+  .emojis {
+    display: grid;
+    align-items: start;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
