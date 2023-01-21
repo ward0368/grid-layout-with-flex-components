@@ -7,11 +7,15 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
   }
   
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    display: flex;
+    
   }
   
   .emoji a {
@@ -20,10 +24,15 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    display: flex;
+
   }
   
   .icon {
     font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    order: -1;
   }
 
   .emojis {
@@ -35,5 +44,6 @@ body {
   }
 
   p {
-    padding: 10px;
+    display: flex;
+    flex-grow: 1;
   }
