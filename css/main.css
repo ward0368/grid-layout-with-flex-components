@@ -15,7 +15,6 @@ body {
     margin: 0;
     border-bottom: 2px solid #ccc;
     display: flex;
-    
   }
   
   .emoji a {
@@ -25,7 +24,6 @@ body {
     padding: 1rem;
     border-radius: 8px;
     display: flex;
-
   }
   
   .icon {
